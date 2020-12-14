@@ -3,26 +3,33 @@
   margin: 0;
 }
 
-header{
-  background-color: green;
-  font-size: 16px;
+.linha{
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.nav-bar {
+header{
+  background-color: black;
+  font-size: 16px;
+  width: 55%;
+  height:100vh;
   display: grid;
   justify-content: center;
   align-content: center;
 }
 
-.logo {
-  padding: 30px;
-}
-
 .titulo{
   font-family: "Century Gothic";
   font-size: 3em;
-  color:#ffffff;
+  color:green;
 }
+
+main{
+  background-color: white;
+  width: 45%;
+  height:100vh;
+}
+
 
 .subtit{font: 25px "Arial Black"; text-align: left; color:#000000; margin-left: 50px; margin-right: 50px; padding-top: 30px}
 #cor1{background-color:	#106D02}

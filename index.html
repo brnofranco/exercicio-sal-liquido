@@ -8,36 +8,33 @@
 </head>
 
 <body>
-	<header>
-		<nav class="nav-bar">
-			<div class="logo">
-				<h1 class="titulo">Cálculo de Salário Líquido</h1>
-			</div>
-		</nav>
-	</header>
-	<div class="cor2"></div>
-	<div id="cor3"> <br>
-	<div class="cor4">
-	<p class="subtit"> Escreva em todos os campos abaixo: </p><br> <br>
+	<div class="linha">
 
-	<form name="formulario">
-		<label class="form"> Nome: </label>
-		<input type="text" name="nome" placeholder="Digite seu nome"> <br> <br>
-		<label class="form"> Horas Trabalhadas: </label>
-		<input type="number" name="horastrab" placeholder="Digite as horas trabalhadas"> <br><br>
-		<label class="form"> Valor da Hora: </label>
-		<input type="number" name="valordahr" placeholder="Digite o valor da hora trabalhada"> <br><br>
-		<label class="form"> Quantidade de Dependentes: </label>
-		<input type="number" name="qtdedependentes" placeholder="Digite a quantidade de dependentes"> <br><br>
+		<header>
+			<h1 class="titulo">Cálculo de Salário Líquido</h1>
+		</header>
+	
+	<main>
+		
+		<p class="subtit"> Escreva em todos os campos abaixo: </p><br> <br>
+	
+		<form name="formulario">
+			<label class="form"> Nome: </label>
+			<input type="text" name="nome" placeholder="Digite seu nome"> <br> <br>
+			<label class="form"> Horas Trabalhadas: </label>
+			<input type="number" name="horastrab" placeholder="Digite as horas trabalhadas"> <br><br>
+			<label class="form"> Valor da Hora: </label>
+			<input type="number" name="valordahr" placeholder="Digite o valor da hora trabalhada"> <br><br>
+			<label class="form"> Quantidade de Dependentes: </label>
+			<input type="number" name="qtdedependentes" placeholder="Digite a quantidade de dependentes"> <br><br>
+	
+		<div class="hr"> </div> <br>
+			<label class="form"> Clique aqui para calcular: </label>
+			<input type="button" class="butao" value="Calcular"  onclick="calcularValores()"> <br> <br>
+		</form>
+	</main>
+</div>
 
-	<div class="hr"> </div> <br>
-		<label class="form"> Clique aqui para calcular: </label>
-		<input type="button" class="butao" value="Calcular"  onclick="calcularValores()"> <br> <br>
-
-	</form>
-	</div>
-	<br><br><br>
-	</div>
 	<script language="javascript" src="scripts/main.js"></script>	
 </body>
 </html>
