@@ -1,2 +1,2 @@
 # exerciciojs
-projeto que fiz em aula no curso
+refazendo projeto que fiz ano passado com novo conhecimento
