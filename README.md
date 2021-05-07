@@ -1,2 +1,2 @@
-# exerciciojs
-refazendo projeto que fiz ano passado com novo conhecimento
+# exercicio-sal-liquido
+Exercício proposto em aula no curso técnico no ano de 2018
