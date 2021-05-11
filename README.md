@@ -1,2 +1,2 @@
-# exercicio-sal-liquido
-Exercício proposto em aula no curso técnico no ano de 2018
+# exerciciojs
+projeto que fiz em aula no curso
